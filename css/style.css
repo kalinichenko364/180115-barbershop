@@ -1,9 +1,266 @@
+html,
+body {
+	min-width: 1122px;
+	min-height: 1750px;
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	font-size: 14px;
 	line-height: 24px;
 	color: #000000;
 	font-family: "PT Sans Narrow";
 }
+
+
+/* Index */
+
+/* Header */
+
+.main-header {
+	background-color: #000000;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	background-color: yellow; /* Для разметки */
+}
+
+.main-navigator {
+	float: left;
+	width: 660px;
+	min-height: 70px; /* Временно для оформл серки */
+}
+
+.user-block {
+	float: right;
+	width: 140px;
+	min-height: 70px; /* Временно для оформл серки */
+}
+
+
+/* Index-Logo */
+
+.index-logo {
+	width: 368px;
+	height: 204px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+}
+
+.features {
+	margin-bottom: 80px;
+}
+
+.features-item {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+	min-height: 175px; /* Временно для оформл серки */
+}
+
+.features-item:last-child {
+	margin-right: 0;
+}
+
+.index-content {
+	margin-bottom: 35px;
+	padding: 50px 80px;
+}
+
+.index-content-left {
+	float: left;
+	width: 330px;
+}
+
+.index-content-right {
+	float: right;
+	width: 330px;
+}
+
+
+.contant {
+	background-image: url("../img/Layer-24.png");
+}
+
+/* Item */
+
+.logo-header {
+	float: left;
+}
+
+
+.contant-header {
+	margin-top: 55px;
+	margin-bottom: 55px;
+}
+
+.item-content {
+
+}
+
+.item-content-left {
+	float: left;
+	width: 500px;
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+.item-big-picture {
+	margin-bottom: 20px;
+}
+
+.item-small-pictures img {
+	margin-right: 18px;
+}
+
+.item-content-right {
+	float: right;
+	width: 390px;
+	padding-top: 20px;
+}
+
+.presence {
+	float: left;
+	width: 250px;
+	height: 25px;
+}
+
+.vendor-code {
+	float: right;
+	width: 140px;
+	height: 25px;
+}
+
+.presence-content {
+	float: left;
+	width: 390px;
+	min-height: 140px;
+}
+
+.item-right-top {
+	float: left;
+}
+
+.item-right-bottom {
+	float: left;
+	margin-top: 65px;
+}
+
+
+/* Shop */
+
+.shop-content-left {
+	float: left;
+	width: 240px;
+}
+
+.shop-content-right {
+	float: left;
+	width: 700px;
+}
+
+.item {
+	float: left;
+	width: 220px;
+	min-height: 290px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.item:nth-child(3n) {
+	margin-right: 0;
+}
+
+.filter-producer {
+	width: 220px;
+	min-height: 265px;
+	margin-bottom: 50px;
+}
+
+.filter-group {
+	width: 220px;
+	min-height: 170px;
+	margin-bottom: 50px;
+}
+
+.item .category {
+	font-size: 14px;
+}
+
+.item .category-name {
+	font-size: 14px;
+}
+
+.pagination {
+	float: left;
+	width: 220px;
+}
+
+
+/* Price */
+
+.contant-header {
+	float: left;
+}
+
+.price-title-promo {
+	float: left;
+}
+
+.price-content-left {
+	float: left;
+	width: 300px;
+}
+
+.price-content-right {
+	float: right;
+	width: 460px;
+}
+
+.content-title {
+	width: 300px;
+}
+
+
+/* Footer */
+
+.main-footer {
+	height: 190px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	background-color: #000000; /* Для разметки */
+}
+
+.footer-contacts {
+	float: left;
+	width: 320px;
+	margin-right: 60px;
+	min-height: 90px; /* Временно для оформл серки */
+}
+
+.footer-social {
+	float: left;
+	width: 180px;
+	min-height: 90px; /* Временно для оформл серки */
+}
+
+.footer-copyright {
+	float: right;
+	width: 180px;
+	min-height: 90px; /* Временно для оформл серки */
+}
+
+
 
 h1.main-title {
 	font-size: 30px;

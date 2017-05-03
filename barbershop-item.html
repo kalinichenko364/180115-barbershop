@@ -3,13 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>Набор для путешествий</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
 <!-- Header -->
 	<header class="main-header">
-		<div class="container">
+		<div class="container clearfix">
 			<nav class="main-navigation">
 				<a class="logo-header" href="barbershop-index.html"><img src="img/logo-header.png" width="111" height="24" alt="Главная"></a>
 				<ul>
@@ -37,7 +38,8 @@
 	</header>
 
 <!-- Content -->
-	<main>
+	<main class="contant">
+		<div class="container clearfix">
 		<div class="contant-header">
 			<h1 class="main-title">Набор для путешествий «Baxter of California»</h1>
 			<ul class="bradcrumbs">
@@ -55,7 +57,9 @@
 				</li>
 			</ul>
 		</div>
+		</div>
 
+	<div class="item-content container clearfix">
 	<!-- Images Content-left -->
 		<figure class="item-content-left">
 			<div class="item-big-picture">
@@ -68,20 +72,22 @@
 			</div>
 		</figure>
 
+
+		<div class="item-content-right">
 	<!-- Promo Content-right -->
-		<div class="index-content-right">
-			<div>
-				<p>Есть в наличии</p>
-				<p>Артикул: dexter-ae</p>
-				<section>
+		
+			<div class="item-right-top">
+				<p class="presence">Есть в наличии</p>
+				<p class="vendor-code">Артикул: dexter-ae</p>
+				<section class="presence-content">
 				<p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
 				</section>
 				<p>2900 РУБ.</p>
 				<a class="btn" href="#">Купить</a>
 			</div>
-
+		
 	<!-- Promo Content-right -->			
-			<div>
+			<div class="item-right-bottom">
 				<h2 class="content-title">В набор входят:</h2>
 				<ul>
 					<li>Средство для умывания (50 мл)</li>
@@ -92,11 +98,12 @@
 				</ul>
 			</div>
 		</div>
+	</div>
 	</main>
 
 <!-- Footer -->
 	<footer class="main-footer">
-		<div class="container">
+		<div class="container clearfix">
 
 	<!-- Contacts Left -->
 			<section class="footer-contacts">
